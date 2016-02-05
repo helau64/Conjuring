@@ -6,7 +6,7 @@ words = [line.strip() for line in open('dictionary.txt')]
 
 random_value = random.random()
 
-while a == a:
+while True == True:
 
 	time.sleep(0.5)
 	random_value = random.random()

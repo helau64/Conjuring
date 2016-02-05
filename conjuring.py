@@ -1,13 +1,14 @@
 import string
 import random
+import time
 
 words = [line.strip() for line in open('dictionary.txt')]
 
-a = 0
 random_value = random.random()
 
-while a < 10:
+while a == a:
 
+	time.sleep(0.5)
 	random_value = random.random()
 
 	if random_value <= 0.25:
@@ -50,4 +51,4 @@ while a < 10:
 			print "	%s = %s [%s : %s]" % (random.choice(words), random.choice(words), random_string, random.choice(words))
 			print ""
 
-	a += 1
+	

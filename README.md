@@ -2,7 +2,9 @@
 
 This is the source code for the visual arts project 'Conjuring', shown by Heather Davidson at ESAF 2016.
 
-It prints an infinite loop of non-functional but syntactically correct Python code, while simultaniously controlling a Unicorn HAT.
+conjuringtext.py prints an infinite loop of non-functional but syntactically correct Python code.
+
+conjuringlights.py controls an alternating light pattern on a Unicorn HAT.
 
 You may wonder why this needs to exist.
 
